@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: small;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: block;
+    width: 80%;
+    height: 80%;
+}
+
+.container1{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #dfe3ed;
+}
+
+.main1{
+    display: block;
+    width: 95%;
+    height: 80%;
+    background-color: #ffffff !important;
+}
+
+.sidebar{
+    height: 100%;
+    overflow-y: scroll;
+    padding: 0px;
+    border-right: 1px solid #dfe3ed;
+}
+
+.sidebar_top{
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.user_block{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #dfe3ed;
+}
+
+.search_block{
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #dfe3ed;
+}
+
+.chat_block{
+    padding: 10px;
+    border-bottom: 1px solid #dfe3ed;
+}
+
+.chat_block:hover{
+    background-color: #dfe3ed;
+    cursor: pointer;
+}
+
+.unread{
+    background-color: green;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 50%;
+}
+
+.chat_img{
+    width: 50px;
+    height: 50px;
+}
+
+.my-card{
+    width: 50%;
+    margin: auto;
+    border-top: 4px solid #dfe3ed;
+    border-bottom: 1px solid #dfe3ed;
+    border-left: 1px solid #dfe3ed;
+    border-right: 1px solid #dfe3ed;
+    margin-top: 30px;
+    text-align: left;
+}
+
+.my-card-header{
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #dfe3ed;
+}
+
+.my-card-body{
+    width: 100%;
+    padding: 20px;
+}
+
+.r-form{
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid #dfe3ed;
+    padding: 5px;
+}
+
+.room{
+    background-color: #dfe3ed;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
